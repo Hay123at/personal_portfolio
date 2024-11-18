@@ -1,0 +1,91 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background: #000;
+}
+.UpperWrapper{
+  width:500px;
+  margin: 100px auto;
+  height: 650px;
+}
+.internalWrapper{
+  border: 2px solid #558b65;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #fff;
+}
+.userInput div{
+  width: 400px;
+  height: 100px;
+  margin: 10px 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 25px;
+ padding: 25px;}
+.CWrapper{
+  
+   width: 15%;
+  height: 70px;
+  background-color: #FE0000;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 352px;
+ padding-top: 17px;
+  border-radius: 10px;
+}
+.CWrapper button{
+  background-color: #FE0000;
+  border: none;
+  color: #fff;
+    font-weight: bolder;
+  font-size: 25px;
+}
+.rowContainer {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.rowContainer div {
+  width: 25%;
+  height: 90px;
+  background-color: #777777;
+  color: #fff;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+.rowContainer div button{
+ padding:25px  0; 
+ background-color: #777777;
+ border: none;
+ color: #fff;
+ padding: 25px;
+   font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+  margin-top: 7px;
+  border-radius: 45px !important;
+}
+.orangeColor,.orangeColor button{
+  background-color: #FF9501 !important;
+}
+#greenBG,#greenBG button{
+  background-color: #27A844 ;
+}
+.buttonStyle{
+  background-color: #777777;
+  color: #fff;
+  width: 25%;
+  padding :15px;
+  border-radius: 10px;
+}

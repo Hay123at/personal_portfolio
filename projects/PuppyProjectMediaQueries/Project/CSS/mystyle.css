@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.header-title,
+.footer-part {
+  background-color: #075070;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-size: 4vw;
+  padding: 10px 0;
+}
+.footer-part p {
+  padding: 25px 0;
+  font-size: 6vw;
+}
+/* ================ Mobile style Start====================  */
+.banner-image img {
+  width: 100%;
+}
+.all-puppies {
+  width: 90%;
+  margin: 5% auto;
+  max-width: 600px;
+}
+.all-puppies div {
+  padding: 3% 5%;
+}
+.all-puppies img {
+  width: 100%;
+}
+.Missing-puppy {
+  display: none;
+}
+.More-puppies-title {
+  text-align: center;
+  font-size: 4vw;
+}
+/* ================ Mobile style End====================  */
+/* ================ Media Query style for devices above 768px start====================  */
+@media (min-width: 768px) {
+  .header-title {
+    font-size: 2vw;
+  }
+  .banner-image {
+    margin-bottom: 44px;
+  }
+  .all-puppies div {
+    padding: 0;
+  }
+  .all-puppies {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 3% 0;
+  }
+
+  .Missing-puppy {
+    display: block;
+    background-color: #ee4d65;
+    margin-bottom: 5px;
+  }
+  .Missing-puppy p {
+    text-align: center;
+    font-size: 4vw;
+    padding: 55px 25px;
+  }
+  .Three-puppies div {
+    width: 32%;
+  }
+  .two-puppies div {
+    width: 47%;
+  }
+  .Three-puppies img,
+  .two-puppies img {
+    width: 100%;
+  }
+
+  .More-puppies-title {
+    margin: 19px 0;
+    font-size: 3vw;
+  }
+  /* footer style for media query start  */
+  .footer-part {
+    margin-top: 45px;
+  }
+  .footer-part p {
+    padding: 45px 0;
+    font-size: 4vw;
+  }
+  /* footer style for media query end  */
+}
+
+/* ================ Media Query style End====================  */

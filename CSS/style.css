@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+/* Header style start */
+body {
+  font-family: sans-serif;
+   overflow-x: hidden;
+}
+nav {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  position: fixed;
+}
+nav div .logo {
+  margin-right: 266px;
+  margin-left: 30px;
+}
+nav > div {
+  display: flex;
+}
+nav ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+  padding-right: 52px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* =================================== */
+.menu {
+  display: none;
+  cursor: pointer;
+  margin-right: 150px;
+}
+
+.menu div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+/* Header style end */
+/* Home style start */
+
+.homeBG {
+  min-height: 100vh;
+  background: url(../images/hero25.avif) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.homeBG h1 {
+  color: #fff;
+  font-size: 5vw;
+  padding-bottom: 77px;
+}
+
+.changing-text {
+  color: #1072a1;
+  font-weight: bold;
+}
+/* Home style end */
+
+/* About page style */
+.aboutFlex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+/* .aboutFlex div{
+  width:50%;
+} */
+ #profile{
+
+   
+   background-color: #d9d9d9;
+   
+  border-radius: 45px;
+  margin-top: 30px;
+  margin-left: 30px;
+ }
+#profile img {
+  width: 250px;
+  margin: 25px;
+  border-radius: 45px;
+  margin-top: 30px;
+}
+.profile img{
+  width: 100%;
+   
+   background-color: #d9d9d9;
+}
+.profileImage {
+  
+
+  border-radius: 45px;
+  margin-top: 30px;
+}
+.aboutMe {
+  width: 55%;
+  margin: 25px auto;
+ 
+}
+.aboutMe h1 {
+  margin-bottom: 10px;
+  color: #1072a1
+}
+.cvDownloade a {
+  text-decoration: none;
+}
+.cvDownloade button {
+  padding: 15px;
+  background-color: #000;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  color: #1072a1;
+}
+.cvDownloade button:hover {
+  background-color: #fff;
+}
+/* About page end*/
+
+/* =========================skill page try======================================= */
+
+
+#skill {
+  margin-top: 45px;
+}
+.h1Style {
+
+  margin-left: 20%;
+  color:#1072a1;
+  font-size: 35px;
+}
+#skill p {
+  margin-left: 20%;
+  font: bolder;
+  color: #000;
+  width: 60%;
+}
+.skillWrapper {
+  width: 60%;
+  display: flex;
+  margin: 25px;
+  margin-left: 10%;
+  
+}
+
+
+.skillWrapper div {
+  /* width: 180px; */
+  height: 100px;
+  margin-left: 14%;
+}
+.skillWrapper div img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d9d9d9;
+}
+
+/* ========================================== */
+/* =====================portifolio style start====================== */
+#portifolio {
+  margin: 25px 0;
+}
+.h1Style {
+  margin-left: 25px;
+}
+.portfolioSample {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+.portfolioSample div {
+  width: 40%;
+  margin: 30px;
+  margin-left: 0;
+}
+.portfolioSample div img {
+  width: 100%;
+}
+
+/* =====================portifolio style end====================== */
+/* =====================Service style start ====================== */
+.servicesSection {
+  padding: 50px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+
+.h1Style {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.pService {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 32%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerService {
+  border: 1px solid #d9d9d9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.serviceIcon {
+  width: 60px;
+  height: 60px;
+  background-color: #1072a1;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.serviceIcon:hover {
+  background-color: #fff;
+  color: #1072a1;
+  border: 1px solid #1072a1;
+}
+
+.serviceIcon i {
+  font-size: 24px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 77%;
+    margin: 0 auto;
+    
+  }
+
+  .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+/* =====================Services style end====================== */
+
+/* =====================Contact style start====================== */
+
+
+.h1Style {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.pService {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 40px;
+}
+.contactUpperWrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contactInnerWrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 0px 20px;
+  margin-bottom: 40px;
+  padding: 80px 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.contactInnerWrapper > div {
+  display: flex;
+  
+}
+
+.contactInnerWrapper i {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #1072a1;
+  margin-bottom: 0;
+}
+
+.contactInnerWrapper h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contactInnerWrapper p {
+  font-size: 16px;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .contactUpperWrapper {
+    width: 90%;
+  }
+
+  .contactInnerWrapper {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .contactInnerWrapper > div {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .contactInnerWrapper i {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactUpperWrapper {
+    width: 95%;
+  }
+
+  .contactInnerWrapper {
+    margin: 0 10px;
+  }
+}
+
+/* =====================Contact style end===================== */
+
+/* =====================Footer style Start===================== */
+ .footer_wrapper {
+
+  display: flex;
+  background-color: black;
+  color: #fff;
+  align-items: center;
+  padding: 10px;
+  
+ }
+ .footer_wrapper div{
+  display: flex;
+   width: 95%;
+   margin: 0 auto;
+  gap: 10px;
+  align-items: center;
+  
+
+ }
+ .footerName{
+  width:55% !important;
+ }
+  .footer_wrapper  h2{
+    margin-right: 60%;
+  }
+ .sociallinks  li {
+  list-style: none;
+  margin: 5px;
+}
+.sociallinks  div  a {
+  text-decoration: none;
+  
+
+}
+.sociallinks{
+  width: 35% !important;
+}
+ .sociallinks  div  a i{
+  color:#fff;
+  font-size: 30px;
+ }
+ @media(max-width:425px){
+  .sociallinks{
+  width:  70% !important;
+}
+.footer_wrapper div{
+  gap:4px
+}
+ }
+ 
+
+/* =====================Footer style end===================== */
+
+/* =================================== */
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  .links {
+    position: fixed;
+    right: 0;
+    height: 0;
+    top: 8vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+  }
+
+  .links li {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin: 10px;
+  }
+
+  .links.active {
+    height: 44vh;
+  }
+
+  .links.active li {
+    opacity: 5;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 80%;
+    z-index: 1;
+  }
+
+  /* home page  */
+  .homeBG h1 {
+    color: #fff;
+    font-size: 6vw;
+    padding-bottom: 77px;
+  }
+
+  .aboutFlex {
+    display: block;
+  }
+  #profile img {
+    width: 70%;
+    margin-left: 12%;
+  }
+  .aboutMe {
+    width: 80%;
+  }
+  .cvDownloade {
+    display: flex;
+  }
+
+  /* skill responsive end */
+
+  .skillWrapper {
+    width: 20%;
+    display: flex;
+    margin: 25px;
+    margin-left: 10%;
+  }
+  .skillWrapper {
+    margin-left: 7%;
+  }
+  .skillWrapper div {
+    width: 90px;
+    height: 120px;
+    margin-left: 2%;
+  }
+  .skillWrapper div img {
+    width: 80px;
+    height: 70px;
+  }
+
+  /*  skill responsive  end */
+  /* portifolio responsive */
+  .portfolioSample {
+    display: block;
+    margin: 0;
+  }
+
+  .portfolioSample div img {
+    width: 100%;
+  }
+  .portfolioSample div {
+    width: 100%;
+    margin: 40px;
+  }
+
+  /* portifolio responsive end */
+  /* service responsive style  start*/
+
+  .upperSwerviceWrapper {
+    width: 90%;
+    display: block;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+
+  /* service responsive style end */
+
+  /* contact style  */
+  .contactUpperWrapper {
+    width: 95%;
+    display: block;
+    margin: 30px auto;
+    margin-left: 5%;
+  }
+  .contactUpperWrapper > div {
+    width: 90%;
+   
+    margin: 25px;
+  }
+  .contactInnerWrapper form {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  .contactInnerWrapper form input,
+  textarea {
+    width: 60%;
+    margin: 15px;
+    padding: 10px;
+  }
+  .contactInnerWrapper form button {
+    margin: 30px;
+  }
+
+  /* contact  responsive style end */
+  /* Footer responsive start  */
+  .sociallinks div {
+    width: 5%;
+    margin: 5px auto;
+  }
+  .sociallinks h2 {
+    font-size: 10px;
+  }
+  .uparrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+  }
+}
+
+/* ================================================== */
